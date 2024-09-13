@@ -1,0 +1,656 @@
+body{
+    ::-webkit-scrollbar {
+        width: 3px;
+        display: none;
+        background-color: rgb(112, 198, 249);
+      }
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0px -1px 13px rgb(112, 198, 249);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(38, 88, 215);
+
+      }
+    .main{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-image: url(../img/Whiskey-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .cover{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.351);
+        }
+        .darker{
+            background-color: rgba(0, 0, 0, 0.625);
+
+        }
+        
+        .content1{
+            background-color: rgba(0, 0, 0, 0.547);
+            width: 25%;
+            height: 98vh;
+            position: fixed;
+            left: 20%;
+            // margin-top: 30% ;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: top;
+            padding : 15px;
+            color: whitesmoke;
+            border-radius: 10px;
+            border: 2px solid goldenrod;
+            text-align: justify;
+            
+            h1{
+                font-family: Dancing;
+                font-size: 60px;
+                display: flex;
+                
+                
+            }
+
+            p{
+                font-family: Dancing;
+                font-size: 30px;
+                margin-top: 25px;
+                display: flex;
+                
+                
+            }
+            .logo{
+                width: 30%;
+                height: 55vh;
+                display: flex;
+                position: fixed;
+                justify-content: center;
+                align-items: center;
+                top: 43%;
+                left: 18%;
+                img{
+                    display: inline-block;
+                    width: 70%;
+                    height: 80%;
+                    
+        
+                }
+            }
+            .unActive{
+                display: none;
+            }
+            .topp{
+                display: none;
+            }
+            .topph{
+                width: 100%;
+                height: 30vh;
+                // border: 2px solid goldenrod;
+                margin: 5px 0;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 10px;
+                // .imgDive{
+                //     display: flex;
+                //     width: 50%;
+                //     height: 100%;
+                //     justify-content: center;
+                //     align-items: center;
+                //     img{
+                //         display: flex;
+                //         width: 60%;
+                //         height: 15vh;
+                //     }
+
+                // }
+                .content001{
+                    width: 100%;
+                    height: 100%;
+                    // background-color: red;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+
+                    h3{
+                        font-family: Dancing;
+                        font-size: 40px;
+                    }
+                    .btnMore{
+                        width: 40%;
+                        border: 1px solid rgba(245, 245, 245, 0.56);
+                        border-radius: 5px;
+                        font-family: Dancing;
+                        background-color: rgba(240, 248, 255, 0);
+                        color: whitesmoke;
+                        font-size: 25px;
+                        padding: 5px 10px;
+                        transition: .5s;
+                        &:hover{
+                            background-color: black;
+                            color: whitesmoke;
+                            border-color: whitesmoke;
+                            transition: .5s;
+                        }
+                    }
+                    &:hover{
+                        background-color: rgba(255, 217, 0, 0.537);
+                        color: black;
+                        
+                    }
+                }
+
+            }
+            .middel{
+                display: none;
+            }
+            .middelh{
+                width: 100%;
+                height: 30vh;
+                margin: 5px 0;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 10px;
+                // .imgDive{
+                //     display: flex;
+                //     width: 50%;
+                //     height: 100%;
+                //     justify-content: center;
+                //     align-items: center;
+                //     img{
+                //         display: flex;
+                //         width: 70%;
+                //         height: 15vh;
+                //     }
+
+                // }
+                .content001{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+
+                    h3{
+                        font-family: Dancing;
+                        font-size: 40px;
+                    }
+                    .btnMore{
+                        width: 40%;
+                        border: 1px solid rgba(245, 245, 245, 0.56);
+                        border-radius: 5px;
+                        font-family: Dancing;
+                        background-color: rgba(240, 248, 255, 0);
+                        color: whitesmoke;
+                        font-size: 25px;
+                        padding: 5px 10px;
+                        transition: .5s;
+                        &:hover{
+                            background-color: black;
+                            color: whitesmoke;
+                            border-color: whitesmoke;
+                            transition: .5s;
+                        }
+
+                    }
+                    &:hover{
+                        background-color: rgba(255, 217, 0, 0.537);
+                        color: black;
+                        
+                    }
+                }
+
+            }
+            .bottom{
+                display: none;
+            }
+            .bottomh{
+                width: 100%;
+                height: 30vh;
+                // border: 2px solid goldenrod;
+                margin: 5px 0;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 10px;
+                // .imgDive{
+                //     display: flex;
+                //     width: 50%;
+                //     height: 100%;
+                //     justify-content: center;
+                //     align-items: center;
+                //     img{
+                //         display: flex;
+                //         width: 70%;
+                //         height: 15vh;
+                //     }
+
+                // }
+                .content001{
+                    width: 100%;
+                    height: 100%;
+                    // background-color: red;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 10px;
+
+                    h3{
+                        font-family: Dancing;
+                        font-size: 40px;
+                    }
+                    .btnMore{
+                        width: 40%;
+                        border: 1px solid rgba(245, 245, 245, 0.56);
+                        border-radius: 5px;
+                        font-family: Dancing;
+                        background-color: rgba(240, 248, 255, 0);
+                        color: whitesmoke;
+                        font-size: 25px;
+                        padding: 5px 10px;
+                        transition: .5s;
+                        &:hover{
+                            background-color: black;
+                            color: whitesmoke;
+                            border-color: whitesmoke;
+                            transition: .5s;
+                        }
+                    }
+                    &:hover{
+                        background-color: rgba(255, 217, 0, 0.537);
+                        color: black;
+                        
+                    }
+                }
+
+            }
+
+        }
+        .divExtra{
+            display: none;
+        }
+        @keyframes move {
+            from {
+                transform: translateX(700px);
+                opacity: .1;
+            }
+        
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        .divExtraShow{
+            animation-name: move;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+
+            background-color: rgba(0, 0, 0, 0.547);
+            width: 45%;
+            height: 98vh;
+            position: fixed;
+            right:5%;
+            color: whitesmoke;
+            border-radius: 10px;
+            border: 2px solid goldenrod;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: top;
+            padding : 15px;
+            .unActive{
+                display: none;
+            }
+            
+
+            .carrrrds{
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+                height: 100%;
+                
+                
+                .cardees{
+                    // background-color: chocolate;
+                    border: 2px solid gold;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    height:50vh;
+                    margin: 5px 0;
+                    cursor: pointer;
+                    position: relative;
+                    .esc{
+                        display: none;
+                        background-color: aqua;
+                        width: 10%;
+                        height: 10%;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 0;
+                        right: 1%;
+                    }
+                    .contentCard{
+                        width: 52%;
+                        height:100%;
+                        // background-color: rgb(52, 80, 24);
+                        display: flex;
+                        flex-direction: column;
+                        padding: 18px;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        
+                        .h2{
+                            font-family: Dancing;
+                            font-size: 60px;
+                        }
+                        p{
+                            font-family: Dancing;
+                            font-size: 25px;
+
+                        }
+                    }
+                    .img-div{
+                        width: 43%;
+                        height:100%;
+                        padding: 10px;
+                        
+                        display: flex;
+                        img{
+                            width: 100%;
+                            
+                        }
+    
+                    }
+                    
+                }
+                .cardees1{
+                    // background-color: chocolate;
+                    border: 2px solid gold;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    height:50vh;
+                    margin: 5px 0;
+                    cursor: pointer;
+                    position: relative;
+                    .esc{
+                        display: none;
+                        background-color: aqua;
+                        width: 10%;
+                        height: 10%;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 0;
+                        right: 1%;
+                    }
+                    .contentCard{
+                        width: 52%;
+                        height:100%;
+                        // background-color: rgb(52, 80, 24);
+                        display: flex;
+                        flex-direction: column;
+                        padding: 18px;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        
+                        .h2{
+                            font-family: Dancing;
+                            font-size: 60px;
+                        }
+                        p{
+                            font-family: Dancing;
+                            font-size: 25px;
+
+                        }
+                    }
+                    .img-div{
+                        width: 43%;
+                        height:100%;
+                        padding: 10px;
+                        
+                        display: flex;
+                        img{
+                            width: 100%;
+                            
+                        }
+    
+                    }
+                    
+                }
+                .showSingleCard{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    font-family: Dancing;
+                    position: relative;
+                    .esc{
+                        display: flex;
+                        width: 5%;
+                        height: 5%;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 0;
+                        right: 1%;
+                    }
+                    
+
+                }
+            }
+            
+            .showSingleCard{
+                // background-color: chocolate;
+                border: 2px solid gold;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height:100vh;
+                margin-bottom: 10px;
+                cursor: pointer;
+                .contentCard{
+                    width: 52%;
+                    height:100%;
+                    // background-color: rgb(52, 80, 24);
+                    display: flex;
+                    flex-direction: column;
+                    padding: 18px;
+                    align-items: flex-start;
+                    justify-content: center;
+                    
+                    h2{
+                        font-family: Dancing;
+                        font-size: 60px;
+                    }
+                    p{
+                        font-family: Dancing;
+                        font-size: 25px;
+
+                    }
+                }
+                .img-div{
+                    width: 43%;
+                    height:100%;
+                    padding: 10px;
+                    
+                    display: flex;
+                    img{
+                        width: 100%;
+                        
+                    }
+
+                }
+            }
+        }
+        @keyframes move1 {
+            from {
+                transform: translateX(-100px);
+                opacity: .1;
+                
+                
+            }
+        
+            to {
+                transform: rotate(0deg);
+                opacity: 1;
+                transition: 1s;
+                
+            }
+        }
+        .anime01{display: none;}
+        .anime1{
+            animation-name: move1;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            cursor: pointer;
+            position: fixed;
+            border-radius: 200px;
+            width: 10%;
+            height: 20vh;
+            top: 10%;
+            left: 2%;
+            transform: rotate(350deg);
+            display: flex;
+            
+            
+
+            .imgDiv{
+                width: 100%;
+                height: 100%;
+                border-radius: 200px;
+                display: flex;
+                
+                img{
+                    display: inline-block;
+                    width: 100%;
+                    border-radius: 200px;
+                    
+                }
+            }
+        }
+        
+        .anime001{opacity: 0;}
+        @keyframes move2 {
+            from {
+                transform: translateX(100px);
+                opacity: .1;
+                
+                
+            }
+        
+            to {
+                transform: rotate(0deg);
+                opacity: 1;
+                transition: 1s;
+                
+            }
+        }
+        .anime02{display: none;}
+        .anime2{
+            animation-name: move2;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            position: fixed;
+            cursor: pointer;
+            border-radius: 200px;
+            width: 10%;
+            height: 20vh;
+            top: 40%;
+            left: 8%;
+            transform: rotate(10deg);
+            display: flex;
+            .imgDiv{
+                width: 100%;
+                height: 100%;
+                border-radius: 200px;
+                display: flex;
+                img{
+                    display: inline-block;
+                    width: 100%;
+                    border-radius: 200px;
+                }
+            }
+        }
+        .anime002{opacity: 0;}
+        .anime03{display: none;}
+        .anime3{
+            animation-name: move1;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+            position: fixed;
+            cursor: pointer;
+            border-radius: 200px;
+            width: 10%;
+            height: 20vh;
+            top: 70%;
+            left: 2%;
+            transform: rotate(355deg);
+            display: flex;
+            
+            .imgDiv{
+                width: 100%;
+                height: 100%;
+                border-radius: 200px;
+                display: flex;
+                img{
+                    display: inline-block;
+                    width: 100%;
+                    border-radius: 200px;
+                }
+            }
+        }
+        .anime003{opacity: 0;}
+    }
+    // .middel{
+    //     background-color: aqua;
+    //     width: 100%;
+    //     height: 100vh;
+    // }
+    
+    
+}
